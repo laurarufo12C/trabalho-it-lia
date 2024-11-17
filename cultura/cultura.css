@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #b6cdc2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #1c794c;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #ff0000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: rgb(41, 185, 60);
+    text-decoration: none;
+}
+
+.vermelho {
+    height: 1rem;
+    background-color: #ff0000;
+}
+
+.verde {
+    height: 1rem;
+    background-color: #1c794c;
+}
+
+.voltar {
+    float: right;
+     margin-top: 5px;
+     padding: 5px 15px;
+     background-color: #1c794c;
+     color: white;
+     text-decoration: none;
+     border-radius: 15px;
+     font-size: 16px;
+ }
+ 
+ .voltar:hover {
+     background-color: #1c794c;
+ }
