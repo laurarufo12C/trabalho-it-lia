@@ -39,7 +39,13 @@ section {
 
 h2 {
     margin-bottom: 10px;
-    color: #000000;
+    color: #ff0000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 p {
@@ -49,6 +55,20 @@ p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+a {
+    color: rgb(41, 185, 60);
+    text-decoration: none;
+}
+
+.vermelho {
+    height: 1rem;
+    background-color: #ff0000;
+}
+
+.verde {
+    height: 1rem;
+    background-color: #1c794c;
+}
 h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -63,10 +83,24 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #b6cdc2;
+    color: #fff;
     text-decoration: none;
 }
 
 nav ul li a:hover {
     text-decoration: underline;
+}
+.voltar {
+   float: right;
+    margin-top: 5px;
+    padding: 5px 15px;
+    background-color: #1c794c;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.voltar:hover {
+    background-color: #1c794c;
 }
